@@ -155,3 +155,4 @@ nova-salud/
 - **Aparece un aviso al instalar `better-sqlite3`:** no es un problema. Es una dependencia opcional; si no se compila, el sistema usa automáticamente el SQLite integrado en Node.js (versión 22.13 o superior). En ese caso verás el aviso "ExperimentalWarning: SQLite", que es normal.
 - **El puerto 3000 está ocupado:** cambia `PORT=3001` en `.env`.
 - **Volver a los datos iniciales:** detén el servidor, borra `database/novasalud.db*` y ejecuta `npm run demo`.
+-    Repositorio: https://github.com/wilfredoalced-byte/nova-salud
