@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nova Salud · Iniciar sesión</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="login-body">
+  <main class="login-wrap">
+    <section class="login-brand">
+      <div class="logo-mark">+</div>
+      <h1>Nova Salud</h1>
+      <p>Sistema web de gestión de inventario y ventas de la botica.</p>
+      <ul class="login-feats">
+        <li>Stock actualizado en tiempo real</li>
+        <li>Alertas automáticas de reposición</li>
+        <li>Punto de venta ágil con boleta</li>
+      </ul>
+    </section>
+    <form class="login-card" id="formLogin" autocomplete="off">
+      <h2>Iniciar sesión</h2>
+      <p class="muted">Ingrese sus credenciales de acceso</p>
+      <label>Usuario
+        <input id="usuario" name="usuario" required maxlength="40" placeholder="Ej. admin">
+      </label>
+      <label>Contraseña
+        <input id="password" name="password" type="password" required maxlength="60" placeholder="••••••••">
+      </label>
+      <div id="loginError" class="alert-error" hidden></div>
+      <button class="btn btn-primary btn-block" type="submit">Ingresar</button>
+      <p class="hint">Demo: <b>admin</b> / Admin123* &nbsp;·&nbsp; <b>vendedor</b> / Venta123*</p>
+    </form>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+</html>
